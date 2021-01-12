@@ -1,0 +1,180 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+
+    <
+
+    <title>HSP-Groundworks</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu1">
+        <ul class="menu">
+          <li>
+            <a href="index.html" style="text-decoration: none" class="navBar"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a href="contact.html" style="text-decoration: none" class="navBar"
+              >Contact Us</a
+            >
+          </li>
+          <li class="login">
+            <a href="login.html" style="text-decoration: none" class="navBar"
+              >Log in
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="first-section">
+      <h1>H.S.P Groundworks</h1>
+      <h2>The upgrade you need for your home!</h2>
+      <aside class="p1">
+        <p class="p1">
+          We are a small landscaping firm that is located in Ashford Kent. We
+          take pride on what we do and alwayse give our best on any job. We can
+          help you plan and design any outdoor space so you can benefit from it
+          as much as you can.We take every job seriosly. You can Contact us for
+          a free quote with no obligations.
+        </p>
+        <ul class="list">
+          <h3>What we do:</h3>
+          <li>Desingn and install Driveways,</li>
+          <li>Backgarden design and makeover,</li>
+          <li>Patio installation,</li>
+          <li>Fence installation.</li>
+        </ul>
+      </aside>
+    </div>
+    <form id="materialsCalc">
+      <label for="materials">Pick the materal:</label>
+      <select id="materials">
+        <option disabled selected value>---Material---</option>
+        <option value="160" label="Sharp Sand" class="">Sharp Sand</option>
+        <option value="159">Building sand</option>
+        <option value="168">Gravel</option>
+        <option value="240">Concrete</option></select
+      ><br /><br />
+      <label>Length(M): </label>
+      <input type="number" id="length" /><br /><br />
+      <label>Width(M) : </label>
+      <input type="text" id="width" /><br /><br />
+      <label>Depth(M) :</label>
+      <input type="text" id="depth" /><br /><br />
+      <button id="butonCalc" type="button" onclick="myFunction()">
+        Calculate</button
+      ><br /><br />
+      <p>Quantity Required</p>
+      <p id="quantityR"></p>
+    </form>
+    <button type="button" id="open-form" class="MyButton" onclick="openForm()">
+      Material Calculator
+    </button>
+
+    <div class="container">
+      <!-- Full-width images with number text -->
+      <div class="mySlides img1">
+        <div class="numbertext">1 / 6</div>
+        <img src="img1.jpg" " style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="img2.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="img3.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="img4.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="img5.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="img6.jpg" style="width: 100%" />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id=""></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img1.jpg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt=""
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img2.jpg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt=""
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img3.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt=""
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img4.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="Caption"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img5.jpg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt=""
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img6.jpg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

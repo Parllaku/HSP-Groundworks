@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu1">
+        <ul class="menu">
+          <li>
+            <a href="index.html" style="text-decoration: none" class="navBar"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a href="contact.html" style="text-decoration: none" class="navBar"
+              >Contact Us</a
+            >
+          </li>
+          <li class="login">
+            <a href="login.html" style="text-decoration: none" class="navBar"
+              >Log in
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="site-container">
+      <div class="login-header">
+        <h1 class="login-h1">Login</h1>
+      </div>
+      <div class="welcome">
+        <form id="loginform" action="media.html" method="POST">
+          <h2>Sign in</h2>
+          <div class="row">
+            <p class="p3">
+              <label for="email">Email</label>
+              <input
+                id="login1"
+                type="email"
+                name="Email"
+                placeholder="example@domain.com"
+                required="required"
+              />
+            </p>
+            <p class="p3">
+              <label for="Password">Password</label>
+              <input
+                id="login1"
+                type="Password"
+                name="Password"
+                placeholder="******"
+                min="6"
+                required="required"
+              />
+            </p>
+            <p class="rmbme">
+              <input type="checkbox" name="Signedin" value="Remember me" />
+              Remember Me
+            </p>
+            <p class="recoverpassword">
+              <input class="submit" type="submit" value="Login" />
+              <a class="forgotpass" href="#">Forgot Password</a>
+            </p>
+
+            <p class="new-member">
+              <label for="newmember">Not yet a member?</label>
+              <a class="register1" href="#">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
